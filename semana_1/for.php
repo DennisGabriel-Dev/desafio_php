@@ -27,8 +27,12 @@ for( ; ; ){
   $i++;
 }
 
+echo "<br>";
+for ($i = 1, $j = 0; $i <= 10; $j += $i, print $j . ' ', $i++);
 
-echo "<br>"
-// present on documentation, but accuses syntax error.
-//for ($i = 1, $j = 0; $i <= 10; $j += $i, print $i, $i++);
+echo "<br>";
+for($i = 15; $i > 0; $i--):
+  echo $i . ' ';
+endfor;
+
 ?>
